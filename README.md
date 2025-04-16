@@ -20,4 +20,4 @@ A personalized Python fortune teller program that predicts fortunes based on use
 - v1.0: Basic functionality with three moods (happy/sad/neutral)
 - v1.1: Added additional mood options and randomized fortunes
 
-Created by [Kinjal Das]
+Created by Kinjal Das, 21JE0473.
