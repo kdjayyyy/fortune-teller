@@ -3,7 +3,7 @@ name: Create Release from Tag
 on:
   push:
     tags:
-      - 'v*.*'  # Trigger on version tags (e.g., v1.0.0)
+      - 'v*.*'  # Trigger on version tags (e.g., v1.0, v1.1)
 
 permissions:
   contents: write  # Allow the action to create releases
@@ -25,5 +25,9 @@ jobs:
           release_name: Release ${{ github.ref }}
           body: |
             Fortune Teller Release
+            
+            Changes in this version:
+            - For v1.0: Basic functionality with three moods (happy/sad/neutral)
+            - For v1.1: Added the 'stressed' mood and randomized fortune messages
           draft: false
           prerelease: false
