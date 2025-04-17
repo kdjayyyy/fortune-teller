@@ -2,8 +2,8 @@ import random
 
 def main():
    # Personal information - REPLACE WITH YOUR ACTUAL INFO
-   NAME = "Your Name"  # Replace with your full name
-   ADMISSION_NUMBER = "Your Admission Number"  # Replace with your actual admission number
+   NAME = "Kinjal Das"  # Replace with your full name
+   ADMISSION_NUMBER = "21JE0473"  # Replace with your actual admission number
 
    # Display welcome message with personal identifiers
    print(f"🔮 Welcome to {NAME}'s Fortune Teller ({ADMISSION_NUMBER}) 🔮")
