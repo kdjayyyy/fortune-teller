@@ -9,7 +9,7 @@ def main():
    print(f"🔮 Welcome to {NAME}'s Fortune Teller ({ADMISSION_NUMBER}) 🔮")
 
    # Get user's mood input
-   mood = input("How are you feeling today? (happy/sad/neutral/stressed): ").strip().lower()
+   mood = input("How are you feeling today? : ").strip().lower()
 
    # Fortune messages for each mood
    happy_fortunes = [
